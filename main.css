@@ -1,0 +1,77 @@
+body{
+	background-color: #40868C;
+	color: #fff;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+
+}
+
+a, .handler{
+	cursor: pointer;
+}	
+h1{
+	font-size: 4rem;
+	font-family: pacifico;
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+.control-panel{
+	width: 60%;
+	margin: 0 auto 2rem;
+}
+
+.control-title{
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.break, .session{
+	display: inline-block;
+	width: 49%
+}
+
+.controls	{
+	font-size: 40px;
+	line-height: 40px;
+	margin: 1rem 0 0 0;
+
+}
+.controls span{
+	display: inline-block;
+	width: 50px;
+}
+.timer{
+	box-sizing: border-box;
+	border-radius: 50%;
+	border:2px solid #FF8A00;
+	font-size: 3rem;
+	height: 300px;
+	line-height: 130px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	width: 300px;
+	z-index: 5;
+}
+.timer-title{
+	margin: 0;
+	
+}
+.time{
+	font-size: 1.5em;
+	margin: 0;
+}
+
+.fillBackground{
+	background-color: #FF8A00;
+	content: ' ';
+	display: block;
+	height: 300px;
+	margin: 0;
+	position: absolute;
+	top: 300px;
+	width: 300px;
+	z-index: -2;
+}

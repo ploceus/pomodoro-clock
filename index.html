@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Pomodoro Timer</title>
   <meta name="description" content="FreeCodeCamp exercise about random quotes">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pomodoro Timer</title>
   <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="main.css">
@@ -16,28 +16,30 @@
     <h1 class="title" id="title">Pomodoro Timer</h1>
     <div id="control-panel" class="control-panel">
       <div id="break" class="break">
-        <p class="control-title">break length</p>
+        <h4 class="control-title">break length</h4>
         <p class="controls">
           <span id="breakLess" class="handler">-</span>
-          <span id="breakTime" class="number">2</span>
+          <span id="breakTime" class="number">5</span>
           <span id="breakAdd" class="handler">+</span>
         </p>
       </div>
       <div id="session" class="session">
-        <p class="control-title">session length</p>
+        <h4 class="control-title">session length</h4>
         <p class="controls">
           <span id="sessionLess" class="handler">-</span>
-          <span id="sessionTime">3</span>
+          <span id="sessionTime">25</span>
           <span id="sessionAdd" class="handler">+</span>
         </p>
       </div>
     </div>
     <div id="timer" class="timer handler">
-      <p id="timerTitle" class="timer-title">Session</p>
-      <p id="time" class="time">3</p>
       <span class="fillBackground"></span>
-    </div>
 
+      <p id="timerTitle" class="timer-title">Session</p>
+      <p id="time" class="time">25</p>
+    </div>
+        
+  </section>
 
   <!-- Here is the javascript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

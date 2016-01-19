@@ -1,77 +1,127 @@
+html {
+	font-size: 16px;
+}
+	
+
 body{
 	background-color: #40868C;
 	color: #fff;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-
 }
+
 
 a, .handler{
 	cursor: pointer;
-}	
+}
+
+.main {
+	max-width: 400px;
+	margin: 0 auto;
+
+}
+
 h1{
-	font-size: 4rem;
+	margin: 10px 0;
+	font-size: 2.2rem;
 	font-family: pacifico;
-	margin-top: .5em;
-	margin-bottom: .5em;
 }
 
 .control-panel{
-	width: 60%;
+	width: 100%;
 	margin: 0 auto 2rem;
 }
 
+.break, .session{
+	background-color: #888;
+	background-color: rgba(0,0,0,.3);
+	display: inline-block;
+	width: 49%;
+	padding: .5em 0;
+	border-radius: 5px;
+}
+
 .control-title{
+	color: #00D5FF;
+	font-size: 1em;
 	margin: 0;
 	text-transform: uppercase;
 }
 
-.break, .session{
-	display: inline-block;
-	width: 49%
-}
-
 .controls	{
-	font-size: 40px;
-	line-height: 40px;
-	margin: 1rem 0 0 0;
-
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 0 0 0;
 }
+
 .controls span{
 	display: inline-block;
-	width: 50px;
+	width: 30%;
 }
-.timer{
-	box-sizing: border-box;
-	border-radius: 50%;
-	border:2px solid #FF8A00;
-	font-size: 3rem;
-	height: 300px;
-	line-height: 130px;
-	margin: 0 auto;
-	overflow: hidden;
-	position: relative;
-	width: 300px;
-	z-index: 5;
-}
-.timer-title{
-	margin: 0;
-	
-}
-.time{
-	font-size: 1.5em;
-	margin: 0;
-}
+
+/*********************************/
+/*********** Timer Area*********/
+/*********************************/
 
 .fillBackground{
 	background-color: #FF8A00;
 	content: ' ';
 	display: block;
-	height: 300px;
+	height: 100%;
 	margin: 0;
 	position: absolute;
-	top: 300px;
-	width: 300px;
+	top: 100%;
+	width: 100%;
 	z-index: -2;
+}
+
+.timer{
+	box-sizing: border-box;
+	border-radius: 50%;
+	border:5px solid #84F0D5;
+	font-size: 2.1rem;
+	height: 200px;
+	line-height: 100px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	width: 200px;
+
+	z-index: 5;
+}
+
+.timer-title{
+	margin: 0;
+}
+	
+	
+.time{
+	margin: 0;
+}
+
+
+/****************************************/
+/**************Media Queries************/
+/****************************************/
+@media (min-width: 600px){
+	h1 {
+		font-size: 4rem;
+		margin: .5em 0;
+	}
+	
+	.main {
+		max-width: 500px;
+	}
+
+	.control-panel{
+		width: 80%;
+	}
+	.timer{
+	height: 350px;
+	width: 350px;
+	line-height: 175px;
+	font-size: 3.5rem;
+	}
+
 }

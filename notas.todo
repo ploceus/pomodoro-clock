@@ -1,2 +1,8 @@
 Notas:
-    ☐ El relleno de fondo permane en el punto al utilizar los handlers sin reiniciarse.
+    ✔ Desplegado en github @done (16-01-16 10:31)
+    ✔ El relleno de fondo permane en el punto al utilizar los handlers sin reiniciarse. @done (19-01-16 12:23)
+    ✔ Reiniciar valores al usar los modificadores de tiempo. @done (19-01-16 12:23)
+    ☐ Readme del repositorio github.
+    ✔ Layout de la aplicacion  @done (19-01-16 15:40)
+      ✔ iphone 4  @done (19-01-16 12:39)
+      ✔ ipad 1 landscape problemas con z-index ...sin solución de momento  @done (19-01-16 15:39)
